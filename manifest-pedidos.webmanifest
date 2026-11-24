@@ -5,19 +5,13 @@
  "start_url": "./pedidos.html",
  "scope": "./",
  "display": "standalone",
- "background_color": "#f6f3ef",
+ "background_color": "#ffffff",
  "theme_color": "#5A1A2B",
  "lang": "pt-BR",
  "icons": [
-  {
-   "src": "icon-pedidos-192.png",
-   "sizes": "192x192",
-   "type": "image/png"
-  },
-  {
-   "src": "icon-pedidos-512.png",
-   "sizes": "512x512",
-   "type": "image/png"
-  }
+  {"src": "icon-pedidos-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+  {"src": "icon-pedidos-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+  {"src": "icon-pedidos-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable"},
+  {"src": "icon-pedidos-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
  ]
 }
